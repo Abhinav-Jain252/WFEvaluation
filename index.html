@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="login-container">
+    <h2>Please Login to Continue</h2>
+    <div style="display: flex; justify-content: center; margin: auto; margin-top: 20px;">
+      <label class="tab-label" for="tab1" style="font-size: 20px; padding: 15px 30px; border-top: 1px solid #0f9d58;">Sign In</label>
+      
+      <label class="tab-label" for="tab2" style="font-size: 20px; background-color: #c3c3c3; padding: 15px 30px;">Sign Up</label>
+  </div>
+    <form class="login-form" style="margin: 30px;" action="#" method="post">
+      <div class="form-group">
+        <input type="text" id="username" name="username" style="padding: 20px;" placeholder="Username or email" />
+      </div>
+      <div class="form-group">
+        <input type="password" id="password" name="password" style="padding:20px" required placeholder="Password" />
+      </div>
+      <div class="form-group">
+        <input type="submit" value="Sign In" style="padding: 15px;"/>
+      </div>
+      <div class="form-group">
+        -----------------------------------------or-----------------------------------------
+      </div>
+      <div class="social-buttons">
+        <button class="google" style="width: 130px;">Google</button>
+        <button class="linkedIn" style="width: 130px;">LinkedIn</button><br><br>
+        <button class="facebook" style="width: 130px;">Facebook</button>
+        <button class="github" style="width: 130px;">GitHub</button>
+      </div>
+      <br>
+      <div class="form-group">
+        <a href="#">Why Create an account?</a>
+      </div>
+      <div class="form-group">
+        <a href="#">Privacy Policy & Cookie Policy</a>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
